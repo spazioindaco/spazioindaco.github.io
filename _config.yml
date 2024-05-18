@@ -1,5 +1,6 @@
 url: https://spazioindacocfe.com
-baseurl: /
+#url: http://127.0.0.1:4000
+baseurl: 
 
 # Site settings
 title: Spazio Indaco
@@ -9,48 +10,29 @@ description: "descrizione che vuoi che esca su google"
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Anna Maria Riccardo
   pic: 1
-  position: Lead Designer
+  position: Tecnico della riabilitazione psichiatrica
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
+    - title: instagram
       url: #
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Valeria Villani
+  pic: 2
+  position: Ostetrica
   social:
-    - title: twitter
+    - title: instagram
       url: #
-    - title: facebook
-      url: #
-    - title: google-plus
+    - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Elisa Zacheo
   pic: 3
-  position: Lead Developer
+  position: Logopedista
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
+    - title: linkedin
       url: #
 
 
