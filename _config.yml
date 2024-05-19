@@ -1,11 +1,11 @@
-url: https://spazioindacocfe.com
-#url: http://127.0.0.1:4000
+#url: https://spazioindacocfe.com
+url: http://127.0.0.1:4000
 baseurl: 
 
 # Site settings
 title: Spazio Indaco
 email: info@spazioindacocfe.com
-description: "descrizione che vuoi che esca su google"
+description: "Centro multidisciplinare dedicato alla salute in ogni fase della vita"
 
 
 # Team names, titles and social links
@@ -15,25 +15,25 @@ people:
   position: Tecnico della riabilitazione psichiatrica
   social:
     - title: instagram
-      url: #
+      url: https://www.instagram.com/anna.riccardo_terp/
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/anna-maria-riccardo-62129a224/
 
 - name: Valeria Villani
   pic: 2
   position: Ostetrica
   social:
     - title: instagram
-      url: #
+      url: https://www.instagram.com/ostetrica_valeriavillani/
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/valeria-villani-8957118a/
 
 - name: Elisa Zacheo
   pic: 3
   position: Logopedista
   social:
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/elisa-zacheo-44786b228/
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)

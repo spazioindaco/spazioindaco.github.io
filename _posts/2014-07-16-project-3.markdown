@@ -1,6 +1,6 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Stanza 3
+subtitle: Educativo e neuropsicomotricità
 layout: default
 modal-id: 3
 date: 2014-07-16
