@@ -1,8 +1,11 @@
   <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                <div class="col-md-3">
+                    <h5>Contatti</h5>
+                    <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                    <p>Telefono: <a href="tel:+1234567890">+123 456 7890</a></p>
+                    <p>Indirizzo: 1234 Via Roma, Milano, Italia</p>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -12,14 +15,9 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="col-md-4">
+                <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
             </div>
         </div>
     </footer>

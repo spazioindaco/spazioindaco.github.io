@@ -127,7 +127,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #11679d;
 }
 
 .btn-xl:hover,
@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Wire one","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #064369;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #064369;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #11679d;
+        background-color:  #{{ site.data.template.color.primary }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -268,14 +268,12 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    background-color: #d1e1f7;
     background-attachment: scroll;
+    background-repeat: no-repeat;
     background-image: url('{{ site.baseurl }}/img/header-bg.svg');
-    background-position: center top;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-position: bottom;
+    background-size: 40%; /* Adjust the size as needed */
 }
 
 header .intro-text {
@@ -657,9 +655,9 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
-    background-position: center;
+    background-color: #d1e1f7;
+    background-image: url('{{ site.baseurl }}/img/contattaci.svg');
+    background-position: bottom right;
     background-repeat: no-repeat;
 }
 
@@ -678,14 +676,16 @@ section#contact .form-group textarea {
 
 section#contact .form-group input.form-control {
     height: auto;
+    color: #11679d;
 }
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    color: #11679d;
 }
 
 section#contact .form-control:focus {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #11679d;
     box-shadow: none;
 }
 
@@ -693,28 +693,28 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #11679d;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #11679d;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #11679d;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #11679d;
 }
 
 section#contact .text-danger {
