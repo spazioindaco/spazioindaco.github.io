@@ -1,23 +1,26 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h5>Contatti</h5>
-                    <p><a href="mailto:info@spazioindacocfe.com">info@spazioindacocfe.com class="contacts"/a></p>
-                    <p><a href="tel:+1234567890">+123 456 7890</a></p>
-                    <p></p>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
+<footer>
+    <div>
+        <div class="col">
+            <div class="col-xl">
+                <h5>Contatti</h5>
+                <p><a class ="footer-contacts" href="mailto:info@spazioindacocfe.com">info@spazioindacocfe.com</p>
+                <p><a class ="footer-contacts" href="tel:+39 388 423 5373">+39 388 423 5373</a></p>
+                <p></p>
             </div>
-            <div class="col-md-4">
-                <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+            <div class="col-xl">
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
+                    </li>
+                    {% endfor %}
+                    <li><a href="https://wa.me/message/OC3OMNAJNAGIA1?src=qr"><i class="fab fa-whatsapp"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </footer>
+        <div class="col-xl">
+            <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+        </div>
+    </div>
+</footer>
+

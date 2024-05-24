@@ -1,5 +1,5 @@
-url: https://spazioindacocfe.com
-#url: http://127.0.0.1:4000
+#url: https://spazioindacocfe.com
+url: http://127.0.0.1:4000
 baseurl: 
 
 # Site settings
@@ -40,11 +40,13 @@ people:
 social:
   - title: instagram
     url: https://www.instagram.com/spazio.indaco/?igsh=YmJ2b3ZhZzV4am82&utm_source=qr
+  - title: linkedin
+    url: https://www.linkedin.com/company/spazio-indaco-cfe/posts/?feedView=all
   
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Via del Maniscalco, 30
+  - line: Castelfranco Emilia (Modena)
 
 # Build settings
 markdown: kramdown

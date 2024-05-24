@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #dbebff;
 }
 
 .navbar-default .navbar-brand {
@@ -866,4 +866,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+.footer-contacts {
+    color: #064369;
 }
