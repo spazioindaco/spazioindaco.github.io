@@ -741,9 +741,11 @@ section#contact .text-danger {
 }
 
 footer {
+    margin-top: 100px;
     padding: 25px 0;
     text-align: center;
-    color:#064369;
+    background-color:#064369;
+    color: #fff;
 }
 
 footer span.copyright {
@@ -774,8 +776,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: #064369;
+    background-color: #fff;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -887,11 +889,14 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-.footer-contacts {
-    color: #064369;
-}
 
 .service-heading {
     padding-top: 40px;
 }
 
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #11679d;
+}

@@ -44,9 +44,9 @@ social:
     url: https://www.linkedin.com/company/spazio-indaco-cfe/posts/?feedView=all
   
 # Postal address (add as many lines as necessary)
-address:
-  - line: Via del Maniscalco, 30
-  - line: Castelfranco Emilia (Modena)
+address: |
+  Via del Maniscalco, 30<br>
+  Castelfranco Emilia (Modena)
 
 # Build settings
 markdown: kramdown
