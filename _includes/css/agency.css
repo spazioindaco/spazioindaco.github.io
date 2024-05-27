@@ -234,6 +234,35 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+
+header {
+    text-align: center;
+    color: #fff;
+    background-color: #d1e1f7;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-image: url('{{ site.baseurl }}/img/header-bg.svg');
+    background-position: bottom;
+    background-size: 40%; /* Adjust the size as needed */
+}
+
+section#contact {
+    background-color: #d1e1f7;
+    background-image: url('{{ site.baseurl }}/img/header-bg.svg');
+    background-position: bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+}
+
+@media(min-width:500px) {
+    section#contact {
+        background-size: 500px;
+    }
+
+}
+
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -263,17 +292,11 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-}
 
-header {
-    text-align: center;
-    color: #fff;
-    background-color: #d1e1f7;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-image: url('{{ site.baseurl }}/img/header-bg.svg');
-    background-position: bottom;
-    background-size: 40%; /* Adjust the size as needed */
+    header {
+        background-size: 600px;
+    }
+
 }
 
 header .intro-text {
@@ -660,14 +683,6 @@ aside.clients img {
     }
 }
 
-section#contact {
-    background-color: #d1e1f7;
-    background-image: url('{{ site.baseurl }}/img/header-bg.svg');
-    background-position: bottom center;
-    background-size: 400px;
-    background-repeat: no-repeat;
-    padding-bottom: 300px;
-}
 
 section#contact .section-heading {
     color: #fff;
@@ -701,28 +716,24 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #11679d;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #11679d;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #11679d;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #11679d;
 }
 
 section#contact .text-danger {
