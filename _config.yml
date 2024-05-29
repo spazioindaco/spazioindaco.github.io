@@ -1,5 +1,5 @@
-url: https://spazioindacocfe.com
-#url: http://127.0.0.1:4000
+#url: https://spazioindacocfe.com
+url: http://127.0.0.1:4000
 baseurl: 
 
 # Site settings
@@ -12,7 +12,7 @@ description: "Centro multidisciplinare dedicato alla salute in ogni fase della v
 people:
 - name: Anna Maria Riccardo
   pic: 1
-  position: Tecnico della riabilitazione psichiatrica
+  position: <i>Tecnico della riabilitazione psichiatrica</i> <br> <br> Laureata con Lode in Tecnica della Riabilitazione Psichiatrica all'Università di Modena e Reggio Emilia nel 2021, ho successivamente completato un corso di perfezionamento in <b>"La comunicazione aumentativa alternativa in età evolutiva"</b> presso la stessa università. Nello stesso anno, ho frequentato il corso per <b>tecnico ABA</b> e <b>Tutor DSA e BES</b>. <br> Sto terminando il master di I livello in ABA (Applied Behavior Analysis) per diventare <b>Assistente Analista del Comportamento</b>. <br> Dal 2021, svolgo interventi psicoeducativi rivolti a bambini con <b>autismo</b>,  collaborando sia con la pubblica amministrazione sia come libera professionista. Mi specializzo principalmente nell'ambito dell'autismo, offrendo supporto e interventi mirati per migliorare la qualità della vita dei miei pazienti. 
   social:
     - title: instagram
       url: https://www.instagram.com/anna.riccardo_terp/
@@ -21,7 +21,7 @@ people:
 
 - name: Valeria Villani
   pic: 2
-  position: Ostetrica
+  position: <i>Ostetrica</i> <br> <br>
   social:
     - title: instagram
       url: https://www.instagram.com/ostetrica_valeriavillani/
@@ -30,7 +30,7 @@ people:
 
 - name: Elisa Zacheo
   pic: 3
-  position: Logopedista
+  position: <i>Logopedista</i> <br> <br> In dicembre 2021 mi sono laureata con lode in Logopedia presso l'Università di Modena e Reggio Emilia. <br> Presso la stessa università, attualmente frequento il Corso di Perfezionamento <b>"La comunicazione aumentativa alternativa in età evolutiva"</b>. <br> Ho effettuato il corso <b>PROMPT</b> per il trattamento della disprassia verbale, il corso <b>Oral Motor Therapy</b> per la gestione e trattamento dello squilibrio muscolare orofacciale, e continuo a specializzarmi in particolare nell'ambito dell'<b>autismo</b> e della <b>balbuzie</b>. <br> Dal 2022 mi occupo di terapia logopedica in età evolutiva, in particolare in bambini con autismo, sindromi e gravi disabilità, all'interno di una struttura privata convenzionata al SSN. <br> Dal 2023 ho ampliato i miei interventi in libera professione a bambini e ragazzi con balbuzie e <b>disturbi specifici di linguaggio</b> e degli <b>apprendimenti</b>. Fondamentale nel mio intervento è il lavoro in sinergia con il bambino, la famiglia e la rete scolastica e di professionisti attorno al bambino, per favorire il benessere del paziente stesso e della sua famiglia.
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/elisa-zacheo-44786b228/
@@ -40,13 +40,11 @@ people:
 social:
   - title: instagram
     url: https://www.instagram.com/spazio.indaco/?igsh=YmJ2b3ZhZzV4am82&utm_source=qr
-  - title: linkedin
-    url: https://www.linkedin.com/company/spazio-indaco-cfe/posts/?feedView=all
   
 # Postal address (add as many lines as necessary)
-address: |
-  Via del Maniscalco, 30<br>
-  Castelfranco Emilia (Modena)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
