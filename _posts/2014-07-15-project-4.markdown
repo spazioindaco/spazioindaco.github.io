@@ -1,11 +1,11 @@
 ---
 title: Stanza 4
-subtitle: Logopedia e valutazioni educative
+subtitle: Interventi logopedici
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: Lodopedia.png
+thumbnail: Logopedia.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

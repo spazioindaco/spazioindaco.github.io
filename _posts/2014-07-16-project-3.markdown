@@ -1,11 +1,11 @@
 ---
 title: Stanza 3
-subtitle: Educativo e neuropsicomotricità
+subtitle: Interventi riabilitativi educativi
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: stanza3.png
+thumbnail: stanza3.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
