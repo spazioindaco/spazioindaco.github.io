@@ -46,7 +46,12 @@ people:
 - name: Federica Pipolo
   pic: 6
   position: <i>Psicologa e Analista del comportamento Certificata BCBA®</i> <br> <br> Mi sono laureata con lode in <b>Psicologia dell'intervento clinico e sociale</b> presso l'università di Parma. <br> Ho poi conseguito il <b>Master di II Livello in ABA (Applied Behavior Analysis)</b> certificandomi prima come <b>Analista del comportamento</b> e poi conseguendo il titolo americano <b>BCBA presso il BACB</b>. <br> Come Psicologa mi occupo di strutturare percorsi di <b>alfabetizzazione emotiva per bambini e adolescenti a sviluppo normotipico o con disturbi del neuro sviluppo</b>. <br> Come <b>Supervisore BCBA</b> sono responsabile clinica e referente di <b>piani di intervento ABA individualizzati</b>. Strutturo e supervisiono interventi riabilitativi per bambini con Disturbo dello Spettro Autistico o disabilità evolutive.
-
+  social:
+    - title: facebook
+      url: https://www.facebook.com/profile.php?id=100089904520267
+    - title: linkedin
+      url: https://www.linkedin.com/in/federica-pipolo-57bb18194/
+      
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
