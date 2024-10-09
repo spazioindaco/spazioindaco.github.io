@@ -12,7 +12,7 @@ description: "Centro multidisciplinare dedicato alla salute in ogni fase della v
 people:
 - name: Anna Maria Riccardo
   pic: 1
-  position: Tecnica della riabilitazione psichiatrica e Assistente Analista del Comportamento | Co-founder Spazio Indaco 
+  position: <i>Tecnica della riabilitazione psichiatrica e Assistente Analista del Comportamento | Co-founder Spazio Indaco <i>
   description: <br> Laureata con Lode in Tecnica della Riabilitazione Psichiatrica all'Università di Modena e Reggio Emilia nel 2021, ho successivamente completato un corso di perfezionamento in <b>"La comunicazione aumentativa alternativa in età evolutiva"</b> presso la stessa università. Nello stesso anno, ho frequentato il corso per <b>tecnico ABA</b> e <b>Tutor DSA e BES</b>. <br> Sono anche un'<b>Assistente Analista del Comportamento</b> in seguito al master di I livello in <b>ABA</b> (Applied Behavior Analysis). <br> Dal 2021, svolgo interventi psicoeducativi rivolti a bambini con <b>autismo</b>,  sia collaborando con la pubblica amministrazione sia come libera professionista.
   social:
     - title: instagram
@@ -22,8 +22,8 @@ people:
 
 - name: Valeria Villani
   pic: 2
-  position: <i>Ostetrica</i> 
-  description: "<br> <i> Co-founder Spazio Indaco </i> <br> <br> L'ostetrica è una figura sanitaria essenziale che accompagna le donne in tutte le fasi della loro vita: dall'adolescenza all'età fertile, attraverso la gravidanza il parto e il puerperio, fino alla menopausa. Dopo la mia laurea presso l'Università degli Studi di Roma Tor Vergata nel 2013, ho iniziato la mia carriera lavorativa in un consultorio familiare a Roma. Nel 2015 mi sono trasferita in Emilia Romagna, dove ho dato alla luce i miei due bambini. Successivamente, nel 2019, ho lavorato come ostetrica di reparto e sala parto presso l'Arcispedale Santa Maria Nuova di Reggio Emilia. Nel 2021, ho deciso di intraprendere la strada della libera professione con un obiettivo chiaro: specializzarmi nella <b>salute del pavimento pelvico femminile</b>. Questa scelta è nata dalla mia profonda volontà di aiutare le donne a trovare una figura specializzata che le supporti nei loro percorsi di riabilitazione e benessere pelvico. Ho quindi avviato uno studio dedicato alla rieducazione e riabilitazione pelviperineale, dove posso individuare e trattare le varie problematiche legate al pavimento pelvico, collaborando, quando necessario, con altri professionisti del settore. Oltre la riabilitazione pelvica, offre percorsi di <b>accompagnamento alla nascita</b> per donne e coppia in attesa, <b>assistenza domiciliare durante il puerperio</b>, <b>sostegno all'allattamento al seno</b>, incontri tematici periodici. La mia missione è fornire un'assistenza personalizzata e continua, rispondendo a ogni esigenza delle donne migliorando la loro qualità di vita attraverso una cura attenta e specializzata."
+  position: <i>Ostetrica <br> Co-founder Spazio Indaco </i> 
+  description: "<i> Co-founder Spazio Indaco </i> <br> <br> L'ostetrica è una figura sanitaria essenziale che accompagna le donne in tutte le fasi della loro vita: dall'adolescenza all'età fertile, attraverso la gravidanza il parto e il puerperio, fino alla menopausa. Dopo la mia laurea presso l'Università degli Studi di Roma Tor Vergata nel 2013, ho iniziato la mia carriera lavorativa in un consultorio familiare a Roma. Nel 2015 mi sono trasferita in Emilia Romagna, dove ho dato alla luce i miei due bambini. Successivamente, nel 2019, ho lavorato come ostetrica di reparto e sala parto presso l'Arcispedale Santa Maria Nuova di Reggio Emilia. Nel 2021, ho deciso di intraprendere la strada della libera professione con un obiettivo chiaro: specializzarmi nella <b>salute del pavimento pelvico femminile</b>. Questa scelta è nata dalla mia profonda volontà di aiutare le donne a trovare una figura specializzata che le supporti nei loro percorsi di riabilitazione e benessere pelvico. Ho quindi avviato uno studio dedicato alla rieducazione e riabilitazione pelviperineale, dove posso individuare e trattare le varie problematiche legate al pavimento pelvico, collaborando, quando necessario, con altri professionisti del settore. Oltre la riabilitazione pelvica, offre percorsi di <b>accompagnamento alla nascita</b> per donne e coppia in attesa, <b>assistenza domiciliare durante il puerperio</b>, <b>sostegno all'allattamento al seno</b>, incontri tematici periodici. La mia missione è fornire un'assistenza personalizzata e continua, rispondendo a ogni esigenza delle donne migliorando la loro qualità di vita attraverso una cura attenta e specializzata."
   social:
     - title: instagram
       url: https://www.instagram.com/ostetrica_valeriavillani/
@@ -35,6 +35,8 @@ people:
   position: <i>Logopedista - Età evolutiva</i>
   description: <br> In dicembre 2021 mi sono laureata con lode in Logopedia presso l'Università di Modena e Reggio Emilia. Presso la stessa università, attualmente frequento il Corso di Perfezionamento <b>"La comunicazione aumentativa alternativa in età evolutiva"</b>. <br> Ho effettuato il corso <b>PROMPT</b> per il trattamento della disprassia verbale, il corso <b>Oral Motor Therapy</b> per la gestione e trattamento dello squilibrio muscolare orofacciale, e continuo a specializzarmi in particolare nell'ambito dell'<b>autismo</b> e della <b>balbuzie</b>. <br> Dal 2022 mi occupo di terapia logopedica in età evolutiva, in particolare in bambini con autismo, sindromi e gravi disabilità, all'interno di una struttura privata convenzionata al SSN. <br> Dal 2023 ho ampliato i miei interventi in libera professione a bambini e ragazzi con balbuzie e <b>disturbi specifici di linguaggio</b> e degli <b>apprendimenti</b>. Fondamentale nel mio intervento è il lavoro in sinergia con il bambino, la famiglia e la rete scolastica e di professionisti attorno al bambino, per favorire il benessere del paziente stesso e della sua famiglia.
   social:
+    - title: instagram
+      url: https://www.instagram.com/logopedista_elisa/
     - title: linkedin
       url: https://www.linkedin.com/in/elisa-zacheo-44786b228/
 
@@ -44,7 +46,7 @@ people:
 
 - name: Claudia Vatalaro
   pic: 5
-  position: <i>Logopedista - Età adulta</i>
+  position: <i>Logopedista - Età adulta ed evolutiva</i>
   description: <br> Mi sono laureata con Lode in <b>Logopedia</b> presso l'Università di Bologna. Ho conseguito il titolo di <b>terapista ARM</b> per il trattamento dei <b>disturbi specifici dell'apprendimento</b> e ho approfondito la mia formazione in merito alla valutazione ed il trattamento della <b>deglutizione disfunzionale</b> e <b>disordini miofunzionali</b> seguendo il corso sulla motricità orofacciale della dottoressa phD C. Ferreira. Ho inoltre esperienza lavorativa in ambito sanitario in qualità di <b>Infermiera</b> avendo precedentemente conseguito con Lode la <b>Laurea in Scienze Infermieristiche</b> presso l'Università di Bologna. <br> Mi piace pensare che il mio stile di trattamento si sia arricchito e personalizzato anche grazie alla formazione in ambito musicale, conseguita presso il <b>Conservatorio di Bologna</b>. <br> Attualmente mi occupo di <b>disturbi del linguaggio</b>, della <b>motricità orofacciale e deglutizione</b>, dell'<b>apprendimento e della voce</b> con <b>bambini</b> ed <b>adulti</b>, cercando di collaborare con la famiglia e la realtà scolastica dei bambini.
 
 - name: Federica Pipolo
