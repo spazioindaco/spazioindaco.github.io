@@ -7,36 +7,56 @@
                 <h3 class="section-subheading text-muted">La nostra equipe</h3>
             </div>
         </div>
-        {% for member in site.people %}
-        <div class="row team-row">
-            <div class="col-sm-12">
-                <div class="team-member">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+        <div class="row">
+            {% for member in site.people %}
+            <div class="col-sm-4 d-flex align-items-stretch"> <!-- Flexbox per forzare stessa altezza -->
+                <div class="team-member d-flex flex-column"> <!-- Flexbox interno -->
+                    <!-- Immagine che apre il modal -->
+                    <a href="#" data-toggle="modal" data-target="#customModal-{{ forloop.index }}">
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{ member.name }}">
+                    </a>
+                    <h4>{{ member.name }}</h4>
+                    <p class="text-muted">{{ member.position }}</p>
+                    <ul class="list-inline social-buttons mt-auto"> <!-- mt-auto per spingere i social in fondo -->
+                        {% for network in member.social %}
+                        <li>
+                            <a href="{{ network.url }}" target="_blank">
+                                <i class="fab fa-{{ network.title }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Custom Modal per ogni membro del team -->
+            <div class="modal fade" id="customModal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="customModalLabel-{{ forloop.index }}" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="customModalLabel-{{ forloop.index }}">{{ member.name }}</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
-                        <div class="col-sm-9">
-                            <h4>{{ member.name }}</h4>
-                            <p class="text-muted">{{ member.position }}</p>
-                            <ul class="list-inline social-buttons">
-                                {% for network in member.social %}
-                                <li>
-                                    <a href="{{ network.url }}">
-                                        <i class="fab fa-{{ network.title }}"></i>
-                                    </a>
-                                </li>
-                                {% endfor %}
-                            </ul>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{ member.name }}">
+                                </div>
+                                <div class="col-md-8">
+                                    <p>{{ member.position }}</p>
+                                    <p>{{ member.description }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        {% endfor %}
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <!--<p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>-->
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
