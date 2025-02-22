@@ -672,6 +672,7 @@ section h3.section-subheading {
     border: 7px solid #fff; /* Add border around the image */
     max-width: 70%; /* Limit the width of the image */
     height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 1;
 }
 
 .team-member h4 {
