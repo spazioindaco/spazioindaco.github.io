@@ -67,6 +67,29 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/pier-matteo-fabbri-394a97254/?originalSubdomain=it
       
+- name: Stefania Giannino
+  pic: 8
+  position: "<i>Psicologa</i>"
+  description: |
+    <br> <b>Le mie esperienze</b>: 
+    <br> • Tirocinante educatrice nella comunità "Coccinella" del gruppo CEIS dove ho potuto interfacciarmi con problematiche di ragazze minori, partecipando alla loro quotidianità e agli incontri di équipe.  
+    <br> • Il tirocinio post-laurea magistrale invece l'ho svolto presso lo studio di <b>psicoterapia sistemico-relazionale</b> di Lercara e Cagnone. Il lavoro è stato soprattutto rivolto ai colloqui e qui ho imparato la cura attraverso la relazione terapeutica, nel suo modo di stare e nella sua praticità.  
+    <br> • <b>Progetto di affido</b> presso il Comune di Torino che mi ha dato in incarico un utente con problematiche psico-motorie.  
+    <br> • Lavoro nelle <b>scuole d’infanzia</b> portando progetti a tema ambientale con l’obiettivo di sensibilizzare.  
+    <br>
+    <br> <b>Di cosa mi occupo e cosa offro</b>:  
+    <br> Offro un servizio di <b>sostegno psicologico</b> per esplorare le tue difficoltà e capire nuovi modi di affrontarle, tenendo in considerazione la tua soggettività. In particolare, puoi rivolgerti a me per:  
+    <br> • Difficoltà emotive e relazionali  
+    <br> • Difficoltà in periodi di forte cambiamento  
+    <br> • Promozione del benessere e gestione di risorse  
+    <br> • Interventi di psicoeducazione  
+    <br> • Percorsi di sostegno genitoriale  
+  social:
+     - title: instagram
+       url: https://www.instagram.com/spazioterapia_/
+     - title: linkedin
+       url: "https://www.linkedin.com/in/stefania-giannino-0a655b135/?originalSubdomain=it"
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
