@@ -12,7 +12,7 @@ description: "Centro multidisciplinare dedicato alla salute in ogni fase della v
 people:
 - name: Anna Maria Riccardo
   pic: 1
-  position: <i>Tecnica della riabilitazione psichiatrica e Assistente Analista del Comportamento | Co-founder Spazio Indaco <i>
+  position: <i>Tecnica della riabilitazione psichiatrica<br>Assistente Analista del Comportamento |<br> Co-founder Spazio Indaco <i>
   description: <br> Laureata con Lode in Tecnica della Riabilitazione Psichiatrica all'Università di Modena e Reggio Emilia nel 2021, ho successivamente completato un corso di perfezionamento in <b>"La comunicazione aumentativa alternativa in età evolutiva"</b> presso la stessa università. Nello stesso anno, ho frequentato il corso per <b>tecnico ABA</b> e <b>Tutor DSA e BES</b>. <br> Sono anche un'<b>Assistente Analista del Comportamento</b> in seguito al master di I livello in <b>ABA</b> (Applied Behavior Analysis). <br> Dal 2021, svolgo interventi psicoeducativi rivolti a bambini con <b>autismo</b>,  sia collaborando con la pubblica amministrazione sia come libera professionista.
   social:
     - title: instagram
@@ -23,12 +23,31 @@ people:
 - name: Valeria Villani
   pic: 2
   position: <i>Ostetrica <br> Co-founder Spazio Indaco </i> 
-  description: "<i> Co-founder Spazio Indaco </i> <br> <br> L'ostetrica è una figura sanitaria essenziale che accompagna le donne in tutte le fasi della loro vita: dall'adolescenza all'età fertile, attraverso la gravidanza il parto e il puerperio, fino alla menopausa. Dopo la mia laurea presso l'Università degli Studi di Roma Tor Vergata nel 2013, ho iniziato la mia carriera lavorativa in un consultorio familiare a Roma. Nel 2015 mi sono trasferita in Emilia Romagna, dove ho dato alla luce i miei due bambini. Successivamente, nel 2019, ho lavorato come ostetrica di reparto e sala parto presso l'Arcispedale Santa Maria Nuova di Reggio Emilia. Nel 2021, ho deciso di intraprendere la strada della libera professione con un obiettivo chiaro: specializzarmi nella <b>salute del pavimento pelvico femminile</b>. Questa scelta è nata dalla mia profonda volontà di aiutare le donne a trovare una figura specializzata che le supporti nei loro percorsi di riabilitazione e benessere pelvico. Ho quindi avviato uno studio dedicato alla rieducazione e riabilitazione pelviperineale, dove posso individuare e trattare le varie problematiche legate al pavimento pelvico, collaborando, quando necessario, con altri professionisti del settore. Oltre la riabilitazione pelvica, offre percorsi di <b>accompagnamento alla nascita</b> per donne e coppia in attesa, <b>assistenza domiciliare durante il puerperio</b>, <b>sostegno all'allattamento al seno</b>, incontri tematici periodici. La mia missione è fornire un'assistenza personalizzata e continua, rispondendo a ogni esigenza delle donne migliorando la loro qualità di vita attraverso una cura attenta e specializzata."
+  description: "<br> <br> L'ostetrica è una figura sanitaria essenziale che accompagna le donne in tutte le fasi della loro vita: dall'adolescenza all'età fertile, attraverso la gravidanza il parto e il puerperio, fino alla menopausa. Dopo la mia laurea presso l'Università degli Studi di Roma Tor Vergata nel 2013, ho iniziato la mia carriera lavorativa in un consultorio familiare a Roma. Nel 2015 mi sono trasferita in Emilia Romagna, dove ho dato alla luce i miei due bambini. Successivamente, nel 2019, ho lavorato come ostetrica di reparto e sala parto presso l'Arcispedale Santa Maria Nuova di Reggio Emilia. Nel 2021, ho deciso di intraprendere la strada della libera professione con un obiettivo chiaro: specializzarmi nella <b>salute del pavimento pelvico femminile</b>. Questa scelta è nata dalla mia profonda volontà di aiutare le donne a trovare una figura specializzata che le supporti nei loro percorsi di riabilitazione e benessere pelvico. Ho quindi avviato uno studio dedicato alla rieducazione e riabilitazione pelviperineale, dove posso individuare e trattare le varie problematiche legate al pavimento pelvico, collaborando, quando necessario, con altri professionisti del settore. Oltre la riabilitazione pelvica, offre percorsi di <b>accompagnamento alla nascita</b> per donne e coppia in attesa, <b>assistenza domiciliare durante il puerperio</b>, <b>sostegno all'allattamento al seno</b>, incontri tematici periodici. La mia missione è fornire un'assistenza personalizzata e continua, rispondendo a ogni esigenza delle donne migliorando la loro qualità di vita attraverso una cura attenta e specializzata."
   social:
     - title: instagram
       url: https://www.instagram.com/ostetrica_valeriavillani/
     - title: linkedin
       url: https://www.linkedin.com/in/valeria-villani-8957118a/
+
+- name: Federica Coppola
+  pic: 4
+  position: <i>Biologa Nutrizionista</i>
+  description: <br> Sono Federica, Biologa <b>Nutrizionista</b>, laureata in Biologia della Salute all'università di Bologna.
+    <br>Per me, la <b>nutrizione</b> non è solo una questione di calorie, ma di <b>equilibrio</b>, <b>ascolto</b> e <b>benessere</b> a 360°.
+    <br>Come Nutrizionista mi occupo di:<br><b>• Educazione alimentare</b>
+    <br>• Piani alimentari per la <b>perdita di peso</b>
+    <br>• Piani personalizzati per donne in <b>gravidanza</b>, <b>allattamento</b>, <b>menopausa</b>
+    <br>• <b>Nutrizione sportiva</b>, aumento di massa muscolare
+    <br>• <b>Mindful eating</b>
+    <br><br><b>Cosa posso fare?</b>
+    <br>Ti aiuto a trovare un'alimentazione che si adatti alla tua vita, senza rinunce!
+    <br>Ti accompagno in un percorso sostenibile, senza stress e senza sensi di colpa.
+    <br><br>Credo nella semplicità e nella naturalezza:niente soluzioni rigide, solo scelte consapevoli.
+    <br>La tua alimentazione può diventare un'alleata per sentirti meglio e avere più energia ogni giorno.
+  social:
+    - title: instagram
+      url: https://www.instagram.com/nutrizionistafedericacoppola/
 
 - name: Elisa Zacheo
   pic: 3
@@ -40,14 +59,21 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/elisa-zacheo-44786b228/
 
-# - name: Eleonora Pisi
-#  pic: 4
-#  position: <i>Psicologa clinica</i> <br> <br> Mi sono laureata a pieni voti nel 2020 all'università di <b>Neuroscienze e Riabilitazione neuropsicologica</b> di Padova e da gennaio 2024 frequento la scuola di specializzazione di <b>psicoterapia</b> “Accademia di Neuropsicologia dello sviluppo” (ANsvi). <br>Durante il mio percorso accademico ho avuto la possibilità di collaborare con le università di Psicologia di Padova e di Gent (Belgio) alla raccolta dati in <b>progetti di ricerca con bambini prematuri e bambini a rischio di sviluppare il disturbo dello spettro autistico</b>, utilizzando sia tecniche di neuroscienze sia test neuropsicologici standardizzati specifici nel bambino nella fascia 0-6. <br>Successivamente ho intrapreso un tirocinio volontario ed effettuato supervisioni di casi clinici presso lo studio di Neuropsicologia e riabilitazione dell'età evolutiva  “Evolvendo” di Mantova coordinato dalla dott.ssa Beatrice Bertelli, psicoterapeuta specializzata in disturbi del neurosviluppo. <br>Dal 2022 sono iscritta all'<b>albo degli psicologi dell’Emila Romagna</b> e la mia esperienza clinica si rivolge ai bambini che mostrano difficoltà e ritardi nel corso del loro sviluppo, come <b>ritardo di sviluppo psicomotorio</b>, <b>atipie comunicative nella pragmatica della conversazione</b>, <b>difficoltà relazionali e sociali</b> e <b>Disturbi dello spettro autistico</b>, specialmente nella fascia di età 0-6.
+- name: Maddalena Barani  
+  pic: 9
+  position: <i>Logopedista - Età evolutiva</i>
+  description: Mi sono laureata in <b>Logopedia</b> presso l'università di Modena e Reggio Emilia a novembre 2022, specializzandomi nella <b>valutazione</b> e nel <b>trattamento</b> del <b>linguaggio</b> e dell'<b>apprendimento</b>.
+    <br>Ho arricchito la mia formazione con corsi specifici, ottenendo le qualifiche di:<br><b<Tecnico ABA</b>, con competenze su analisi del comportamento, insegnamento strutturato e gestione dei comportamenti problema nell'autismo.
+    <br><b>Tutor DSA, BES e ADHD</b>, per supportare bambini e ragazzi con difficoltà scolastiche attraverso strategie personalizzate.
+    <br><br>Attualmente lavoro come logopedista in libera professione occupandomi in particolare modo di:<b>disturbi del linguaggio</b>, DSA e <b>difficoltà di apprendimento</b>, <b>autismo</b> e <b>ritardo cognitivo</b>.
+    <br>Oltre alla libera professione collaboro anche con la <b>Neuropsichiatrica Infantile</b> di Modena.
+    <br>Nella terapia reputo fondamentale la creazione di una <b>relazione</b> con il <b>paziente</b> e la <b>collaborazione</b> tra le varie parti che compongono il suo ambiente:<b>genitori</b>, <b>rete scolastica</b> e/o altri <b>professionisti</b> che lo seguono.
 
-- name: Claudia Vatalaro
-  pic: 5
-  position: <i>Logopedista - Età adulta ed evolutiva</i>
-  description: <br> Mi sono laureata con Lode in <b>Logopedia</b> presso l'Università di Bologna. Ho conseguito il titolo di <b>terapista ARM</b> per il trattamento dei <b>disturbi specifici dell'apprendimento</b> e ho approfondito la mia formazione in merito alla valutazione ed il trattamento della <b>deglutizione disfunzionale</b> e <b>disordini miofunzionali</b> seguendo il corso sulla motricità orofacciale della dottoressa phD C. Ferreira. Ho inoltre esperienza lavorativa in ambito sanitario in qualità di <b>Infermiera</b> avendo precedentemente conseguito con Lode la <b>Laurea in Scienze Infermieristiche</b> presso l'Università di Bologna. <br> Mi piace pensare che il mio stile di trattamento si sia arricchito e personalizzato anche grazie alla formazione in ambito musicale, conseguita presso il <b>Conservatorio di Bologna</b>. <br> Attualmente mi occupo di <b>disturbi del linguaggio</b>, della <b>motricità orofacciale e deglutizione</b>, dell'<b>apprendimento e della voce</b> con <b>bambini</b> ed <b>adulti</b>, cercando di collaborare con la famiglia e la realtà scolastica dei bambini.
+
+#- name: Giulia Vinciguerra
+#  pic: 5
+#  position: <i>Logopedista - Età adulta ed evolutiva</i>
+#  description: <br> Mi sono laureata con Lode in <b>Logopedia</b> presso l'Università di Bologna. Ho conseguito il titolo di <b>terapista ARM</b> per il trattamento dei <b>disturbi specifici dell'apprendimento</b> e ho approfondito la mia formazione in merito alla valutazione ed il trattamento della <b>deglutizione disfunzionale</b> e <b>disordini miofunzionali</b> seguendo il corso sulla motricità orofacciale della dottoressa phD C. Ferreira. Ho inoltre esperienza lavorativa in ambito sanitario in qualità di <b>Infermiera</b> avendo precedentemente conseguito con Lode la <b>Laurea in Scienze Infermieristiche</b> presso l'Università di Bologna. <br> Mi piace pensare che il mio stile di trattamento si sia arricchito e personalizzato anche grazie alla formazione in ambito musicale, conseguita presso il <b>Conservatorio di Bologna</b>. <br> Attualmente mi occupo di <b>disturbi del linguaggio</b>, della <b>motricità orofacciale e deglutizione</b>, dell'<b>apprendimento e della voce</b> con <b>bambini</b> ed <b>adulti</b>, cercando di collaborare con la famiglia e la realtà scolastica dei bambini.
 
 - name: Federica Pipolo
   pic: 6
@@ -58,14 +84,6 @@ people:
       url: https://www.facebook.com/profile.php?id=100089904520267
     - title: linkedin
       url: https://www.linkedin.com/in/federica-pipolo-57bb18194/
-
-- name: Pier Matteo Fabbri
-  pic: 7
-  position: <i>Psicologo, specializzato in Educazione Sessuale</i>
-  description: Mi sono laureato con lode in Clinical Psychosexology presso l’Università Sapienza di Roma e mi sono specializzato in Educazione Sessuale presso il Centro Italiano di Sessuologia.Mi interesso di temi legati alla sessualità e al genere. Lavoro con persone adolescenti in una comunità terapeutico-riabilitativa. Nella libera professione mi occupo di psicoeducazione, educazione all’affettività e alla sessualità, e a percorsi di supporto psicologico.
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/pier-matteo-fabbri-394a97254/?originalSubdomain=it
       
 - name: Stefania Giannino
   pic: 8
@@ -89,6 +107,14 @@ people:
        url: https://www.instagram.com/spazioterapia_/
      - title: linkedin
        url: "https://www.linkedin.com/in/stefania-giannino-0a655b135/?originalSubdomain=it"
+
+- name: Pier Matteo Fabbri
+  pic: 7
+  position: <i>Psicologo, specializzato in Educazione Sessuale</i>
+  description: Mi sono laureato con lode in Clinical Psychosexology presso l’Università Sapienza di Roma e mi sono specializzato in Educazione Sessuale presso il Centro Italiano di Sessuologia.Mi interesso di temi legati alla sessualità e al genere. Lavoro con persone adolescenti in una comunità terapeutico-riabilitativa. Nella libera professione mi occupo di psicoeducazione, educazione all’affettività e alla sessualità, e a percorsi di supporto psicologico.
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/pier-matteo-fabbri-394a97254/?originalSubdomain=it
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
