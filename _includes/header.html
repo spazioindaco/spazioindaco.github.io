@@ -1,6 +1,6 @@
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+            <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -9,29 +9,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                    <li>
+                        <a href="{{ '/' | prepend: site.baseurl }}">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#servizi">Di cosa ci occupiamo</a>
+                        <a href="{{ '/eta-evolutiva.html' | prepend: site.baseurl }}">Età evolutiva e famiglie</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Il centro</a>
-                    </li>
-                    <!--<li>
-                        <a class="page-scroll" href="#about">DA TOGLIERE</a>
-                    </li>-->
-                    <li>
-                        <a class="page-scroll" href="#team">Chi siamo</a>
+                        <a href="{{ '/adulti.html' | prepend: site.baseurl }}">Adulti</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contattaci</a>
+                        <a href="{{ '/eventi.html' | prepend: site.baseurl }}">Eventi</a>
+                    </li>
+                    <li>
+                        <a href="{{ '/contatti.html' | prepend: site.baseurl }}">Contatti</a>
                     </li>
                 </ul>
             </div>
@@ -42,13 +39,11 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+            <div class="container">
             <div class="intro-text">
-                <!--  <div class="intro-heading">Spazio Indaco</div>
-                <a href="#servizi" class="page-scroll btn btn-xl">Scopri i nostri servizi</a>-->
-            </div> 
+            </div>
         </div>
-    </header> 
+    </header>
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}

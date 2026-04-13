@@ -13,7 +13,13 @@ people:
 - name: Anna Maria Riccardo
   pic: Anna
   position: <i>Tecnica della riabilitazione psichiatrica<br>Assistente Analista del Comportamento <br>Co-founder Spazio Indaco <i>
-  description: <br> Laureata con Lode in Tecnica della Riabilitazione Psichiatrica all'Università di Modena e Reggio Emilia nel 2021, ho successivamente completato un corso di perfezionamento in <b>"La comunicazione aumentativa alternativa in età evolutiva"</b> presso la stessa università. Nello stesso anno, ho frequentato il corso per <b>tecnico ABA</b> e <b>Tutor DSA e BES</b>. <br> Sono anche un'<b>Assistente Analista del Comportamento</b> in seguito al master di I livello in <b>ABA</b> (Applied Behavior Analysis). <br> Dal 2021, svolgo interventi psicoeducativi rivolti a bambini con <b>autismo</b>,  sia collaborando con la pubblica amministrazione sia come libera professionista.
+  description: <br> Sono Anna Maria Riccardo, Tecnica della Riabilitazione Psichiatrica e Assistente Analista del Comportamento. 
+    <br> Mi occupo di età evolutiva, accompagnando bambinǝ autistici e bambinǝ con difficoltà nella regolazione emotiva e nella comunicazione, attraverso percorsi educativi e abilitativi personalizzati.
+    <br>Dopo la laurea con lode in Tecnica della Riabilitazione Psichiatrica presso l’Università di Modena e Reggio Emilia, ho approfondito la mia formazione nell’ambito dell’Analisi del Comportamento Applicata (ABA), conseguendo un Master di I livello che mi ha portata a lavorare come Assistente Analista del Comportamento.
+    <br>Nel mio percorso ho integrato competenze su Comunicazione Aumentativa e Alternativa (CAA), Disturbi Specifici dell’Apprendimento e interventi precoci, frequentando corsi specifici tra cui quello introduttivo al modello ESDM.
+    <br>Dal 2021 lavoro con bambinǝ e famiglie sia in contesti pubblici che privati, progettando interventi su misura che tengano conto delle caratteristiche individuali, dei punti di forza e dei contesti di vita.
+    <br>Nel mio lavoro pongo grande attenzione alla costruzione della relazione, alla collaborazione con la famiglia e con la scuola e alla creazione di una rete educativa che possa sostenere concretamente il percorso del/la bambinǝ.
+    <br>Sono inoltre co-founder di Spazio Indaco, un centro multidisciplinare nato con l’obiettivo di offrire supporto integrato a bambinǝ, famiglie e adulti, attraverso il lavoro condiviso tra professionisti.
   social:
     - title: instagram
       url: https://www.instagram.com/anna.riccardo_terp/
@@ -201,3 +207,9 @@ address: |
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Collections
+collections:
+  events:
+    output: true
+    permalink: /:collection/:name.html

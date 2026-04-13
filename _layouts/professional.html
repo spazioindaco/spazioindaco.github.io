@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="page-top" class="index">
+
+    {% include header.html %}
+
+    <main class="container content-section">
+      {% assign person = site.people | where: "name", page.title | first %}
+      {% if person %}
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="{{ '/img/team/' | append: person.pic | append: '.jpg' | prepend: site.baseurl }}" class="img-responsive img-circle" alt="{{ person.name }}">
+          </div>
+          <div class="col-md-8">
+            <h1>{{ person.name }}</h1>
+            <p class="lead">{{ person.position }}</p>
+            <div class="person-description">{{ person.description }}</div>
+            {% if person.social %}
+              <ul class="list-inline social-buttons">
+                {% for network in person.social %}
+                  <li><a href="{{ network.url }}" target="_blank"><i class="fab fa-{{ network.title }}"></i></a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </main>
+
+    {% include footer.html %}
+    {% include js.html %}
+
+  </body>
+</html>

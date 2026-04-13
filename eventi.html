@@ -1,0 +1,61 @@
+---
+layout: section
+title: "Eventi"
+permalink: /eventi.html
+---
+
+<section class="container content-section">
+  <h1>Eventi</h1>
+  <p>Incontri informativi, workshop, eventi gratuiti e percorsi di gruppo.</p>
+
+  {% assign sorted_events = site.events | sort: 'date' | reverse %}
+  
+  {% if sorted_events.size > 0 %}
+    <div class="events-accordion">
+      {% for event in sorted_events %}
+        <div class="event-accordion-item">
+          <button class="event-accordion-header" onclick="toggleEvent(this)">
+            <div class="event-header-content">
+              <div>
+                <h3>{{ event.title }}</h3>
+                <p class="event-meta">{{ event.date | date: "%d %B %Y" }} • {{ event.time }} • {{ event.location }}</p>
+              </div>
+              <span class="event-category">{{ event.category }}</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </button>
+
+          <div class="event-accordion-content">
+            <div class="event-details">
+              <p><strong>📅 Data:</strong> {{ event.date | date: "%d %B %Y" }}</p>
+              <p><strong>⏰ Orario:</strong> {{ event.time }}</p>
+              <p><strong>📍 Luogo:</strong> {{ event.location }}</p>
+              <p><strong>👤 Conduttore:</strong> {{ event.instructor }}</p>
+              <p><strong>💰 Prezzo:</strong> {{ event.price }}</p>
+              <p><strong>👥 Partecipanti:</strong> massimo {{ event.max_participants }}</p>
+            </div>
+
+            <div class="event-description">
+              <p>{{ event.description }}</p>
+            </div>
+
+            <div class="event-content">
+              {{ event.content }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>Al momento non ci sono eventi programmati. Rimani in contatto per le prossime iniziative!</p>
+  {% endif %}
+</section>
+
+<script>
+function toggleEvent(button) {
+  const content = button.nextElementSibling;
+  const icon = button.querySelector('.toggle-icon');
+  content.classList.toggle('show');
+  icon.classList.toggle('rotate');
+}
+</script>

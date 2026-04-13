@@ -1,0 +1,42 @@
+---
+layout: section
+title: "Età evolutiva e famiglie"
+permalink: /eta-evolutiva.html
+---
+
+<section class="container content-section">
+  <h1>Età evolutiva e famiglie</h1>
+  <p>Questa area è dedicata al <b>supporto dello sviluppo dei bambini e degli adolescenti</b>, e all’accompagnamento delle loro <b>famiglie</b> nei diversi momenti della crescita.
+    <br>All’interno di Spazio Indaco lavoriamo con un <b>approccio multidisciplinare</b>, integrando competenze diverse per offrire <b>interventi personalizzati</b> e costruiti sui <b>bisogni specifici</b> di ogni bambino e della sua famiglia.
+    <br><br>Ci occupiamo di:
+    <br>    • <b>sviluppo comunicativo e linguistico</b>
+    <br>    • <b>difficoltà comportamentali ed emotive</b>
+    <br>    • <b>autonomie e abilità quotidiane</b>
+    <br>    • <b>supporto nei disturbi del neurosviluppo</b>
+    <br>    • <b>sostegno alla genitorialità</b>
+    <br>    • <b>collaborazione con la scuola</b>
+    <br>
+    <br>Crediamo nell’importanza di creare un <b>ambiente accogliente</b>, in cui ogni famiglia possa sentirsi ascoltata, compresa e accompagnata.
+    <br>
+    <br>Qui sotto puoi conoscere i/le professionisti/e che lavorano nell’area dell’età evolutiva: <b>clicca su ogni profilo</b> per scoprire il loro approccio e gli interventi proposti. 
+
+  {% assign evo_slugs = "anna-maria-riccardo,stefania-baglieri,linda-borsari,beatrice-soli,maddalena-barani,annalisa-montecchi,valeria-santacatterina" | split: "," %}
+  <div class="professionals">
+    {% for person in site.people %}
+      {% assign pslug = person.name | slugify %}
+      {% if evo_slugs contains pslug %}
+        <div class="prof-card">
+          <div class="card">
+            <a href="{{ '/professionisti/' | append: pslug | append: '.html' | prepend: site.baseurl }}">
+              <div class="prof-avatar">
+                <img src="{{ '/img/team/' | append: person.pic | append: '.jpg' | prepend: site.baseurl }}" alt="{{ person.name }}">
+              </div>
+              <h4>{{ person.name }}</h4>
+            </a>
+            <p class="text-muted">{{ person.position }}</p>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
