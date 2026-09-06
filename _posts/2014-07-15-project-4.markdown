@@ -1,6 +1,6 @@
 ---
 title: Stanza 4
-subtitle: Interventi logopedici
+subtitle: Interventi logopedici | Pedagogia | Psicologia infatile
 layout: default
 modal-id: 4
 date: 2014-07-15

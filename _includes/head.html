@@ -37,9 +37,9 @@
             .content-section > p{padding-left:2rem}
             @media (max-width:767px){.intro-section{padding:3rem 0};.content-section h1{padding-left:1rem};.content-section > p{padding-left:1rem}}
 
-            /* Professionals one-column responsive grid (CSS Grid) */
-            .professionals{display:grid;grid-template-columns:1fr;gap:30px;align-items:start}
-            .professionals .prof-card{box-sizing:border-box;padding:30px;display:block}
+            /* Professionals two-column responsive grid (CSS Grid) */
+            .professionals{display:grid;grid-template-columns:repeat(2,1fr);gap:30px;align-items:start}
+            .professionals .prof-card{box-sizing:border-box;padding:30px}
             .professionals .prof-card .card{border:none;background:transparent;padding:0;text-align:center;max-width:100%;margin:0 auto}
             .professionals .prof-card h4{margin-top:.75rem;margin-bottom:.25rem}
             /* Avatar container keeps images square and uses object-fit to avoid distortion */
@@ -96,7 +96,7 @@
             /* Professional pages styling */
             .col-md-8 h1{padding-left:2rem}
             .col-md-8 > p{padding-left:2rem}
-            .col-md-8 .person-description{padding-left:2rem;padding-right:2rem}
+            .col-md-8 .person-description{padding-left:2rem;padding-right:2rem;font-style:normal}
             @media (max-width:767px){.col-md-8 h1{padding-left:1rem};.col-md-8 > p{padding-left:1rem};.col-md-8 .person-description{padding-left:1rem;padding-right:1rem}}
         </style>
 </head>

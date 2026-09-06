@@ -1,6 +1,6 @@
 ---
 title: Stanza 5 
-subtitle: Formazioni | Incontri di gruppo | YOGA
+subtitle: Psicomotricità | Colloqui | Incontri di gruppo | YOGA 
 layout: default
 modal-id: 5
 date: 2014-07-14
