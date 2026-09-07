@@ -1,61 +1,74 @@
 ---
 layout: section
-title: "Eventi"
+title: "Eventi e percorsi"
 permalink: /eventi.html
 ---
 
-<section class="container content-section">
-  <h1>Eventi</h1>
-  <p>Incontri informativi, workshop, eventi gratuiti e percorsi di gruppo.</p>
-
-  {% assign sorted_events = site.events | sort: 'date' | reverse %}
-  
-  {% if sorted_events.size > 0 %}
-    <div class="events-accordion">
-      {% for event in sorted_events %}
-        <div class="event-accordion-item">
-          <button class="event-accordion-header" onclick="toggleEvent(this)">
-            <div class="event-header-content">
-              <div>
-                <h3>{{ event.title }}</h3>
-                <p class="event-meta">{{ event.date | date: "%d %B %Y" }} • {{ event.time }} • {{ event.location }}</p>
-              </div>
-              <span class="event-category">{{ event.category }}</span>
-            </div>
-            <span class="toggle-icon">▼</span>
-          </button>
-
-          <div class="event-accordion-content">
-            <div class="event-details">
-              <p><strong>📅 Data:</strong> {{ event.date | date: "%d %B %Y" }}</p>
-              <p><strong>⏰ Orario:</strong> {{ event.time }}</p>
-              <p><strong>📍 Luogo:</strong> {{ event.location }}</p>
-              <p><strong>👤 Conduttore:</strong> {{ event.instructor }}</p>
-              <p><strong>💰 Prezzo:</strong> {{ event.price }}</p>
-              <p><strong>👥 Partecipanti:</strong> massimo {{ event.max_participants }}</p>
-            </div>
-
-            <div class="event-description">
-              <p>{{ event.description }}</p>
-            </div>
-
-            <div class="event-content">
-              {{ event.content }}
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  {% else %}
-    <p>Al momento non ci sono eventi programmati. Rimani in contatto per le prossime iniziative!</p>
-  {% endif %}
+<section class="container content-section page-intro events-page-header">
+  <h1>Eventi e percorsi</h1>
+  <p>Incontri, progetti e occasioni per informarsi, condividere esperienze e partecipare alla vita del centro.</p>
 </section>
 
-<script>
-function toggleEvent(button) {
-  const content = button.nextElementSibling;
-  const icon = button.querySelector('.toggle-icon');
-  content.classList.toggle('show');
-  icon.classList.toggle('rotate');
-}
-</script>
+{% assign events_ascending = site.events | sort: "date" %}
+{% assign events_descending = events_ascending | reverse %}
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign now_timestamp = today | date: "%s" | plus: 0 %}
+
+<section class="content-band content-band--soft events-section">
+  <div class="container">
+    <div class="section-intro">
+      <p class="section-eyebrow">01 · Eventi</p>
+      <h2>Eventi e incontri</h2>
+      <p>Incontri informativi, open day, workshop e appuntamenti aperti alla comunità.</p>
+    </div>
+    <div class="event-grid">
+      {% assign upcoming_count = 0 %}
+      {% for event in events_ascending %}
+        {% assign event_timestamp = event.date | date: "%s" | plus: 0 %}
+        {% if event_timestamp >= now_timestamp %}
+          {% assign upcoming_count = upcoming_count | plus: 1 %}
+          {% include event-card.html event=event %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% if upcoming_count == 0 %}
+      <div class="empty-state"><p>Al momento non ci sono nuovi eventi in calendario. I prossimi appuntamenti saranno pubblicati qui.</p></div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="container content-section events-section">
+  <div class="section-intro">
+    <p class="section-eyebrow">02 · Progetti</p>
+    <h2>Progetti attivi</h2>
+    <p>Percorsi individuali e di gruppo attualmente disponibili all’interno di Spazio Indaco.</p>
+  </div>
+  {% include project-grid.html projects=site.data.projects.active status="attivo" empty_text="I nuovi progetti saranno pubblicati qui. Contattaci per conoscere i percorsi attualmente disponibili." %}
+</section>
+
+<section class="content-band content-band--soft events-section">
+  <div class="container">
+    <div class="section-intro">
+      <p class="section-eyebrow">03 · Archivio</p>
+      <h2>Eventi e percorsi conclusi</h2>
+      <p>Alcune delle iniziative già realizzate all’interno di Spazio Indaco.</p>
+    </div>
+    <div class="event-grid">
+      {% assign completed_count = 0 %}
+      {% for event in events_descending %}
+        {% assign event_timestamp = event.date | date: "%s" | plus: 0 %}
+        {% if event_timestamp < now_timestamp %}
+          {% assign completed_count = completed_count | plus: 1 %}
+          {% include event-card.html event=event status="concluso" %}
+        {% endif %}
+      {% endfor %}
+      {% for project in site.data.projects.completed %}
+        {% assign completed_count = completed_count | plus: 1 %}
+        {% include project-card.html project=project status="concluso" %}
+      {% endfor %}
+    </div>
+    {% if completed_count == 0 %}
+      <div class="empty-state"><p>Non ci sono ancora eventi o percorsi conclusi da mostrare.</p></div>
+    {% endif %}
+  </div>
+</section>

@@ -1,12 +1,12 @@
 ---
-title: Stanza 4
-subtitle: Interventi logopedici | Pedagogia | Psicologia infatile
+title: Spazio comunicazione e apprendimento
+subtitle: Logopedia · Pedagogia · Psicologia dell’età evolutiva
 layout: default
 modal-id: 4
 date: 2014-07-15
 img: stanza4.png
 thumbnail: stanza4.png
-alt: image-alt
+alt: Spazio comunicazione e apprendimento
 project-date: 
 client: 
 category: Stanze

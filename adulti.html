@@ -4,39 +4,41 @@ title: "Adulti e benessere"
 permalink: /adulti.html
 ---
 
-<section class="container content-section">
+<section class="container content-section page-intro">
   <h1>Adulti e benessere</h1>
-  <p>Questa area è dedicata al benessere della persona adulta, nei diversi momenti e cambiamenti della vita.
-    <br> All’interno di Spazio Indaco offriamo percorsi di supporto, prevenzione e cura, costruiti sui bisogni individuali, con un’attenzione particolare alla globalità della persona. Il lavoro multidisciplinare permette di integrare competenze diverse, offrendo interventi personalizzati e coordinati.
+  <p>Questa area è dedicata al benessere della persona adulta, nei diversi momenti e cambiamenti della vita.</p>
+  <p>All’interno di Spazio Indaco offriamo percorsi di supporto, prevenzione e cura costruiti sui bisogni individuali, con un’attenzione particolare alla globalità della persona. Il lavoro multidisciplinare integra competenze diverse in uno spazio accogliente e non giudicante.</p>
+</section>
 
-<br> <br>In questa area operano professionisti/e che si occupano di:
-<br>    • <b>benessere psicologico ed emotivo</b>, anche attraverso percorsi con psicologa e psicologo sessuologo
-<br>    • <b>salute della donna nelle diverse fasi della vita</b>, grazie al supporto dell’ostetrica (gravidanza, post parto, riabilitazione pavimento pelvico)
-<br>    • <b>comunicazione e linguaggio in età adulta e anziana</b>, con interventi di logopedia
-<br>    • <b>alimentazione e percorsi nutrizionali personalizzati</b>
-<br>    • <b>benessere corporeo e gestione dello stress</b>, anche attraverso attività come lo yoga
-<br>
-<br>I percorsi proposti possono riguardare momenti di difficoltà, cambiamenti importanti o semplicemente il desiderio di prendersi cura di sé e migliorare il proprio equilibrio psicofisico.
-<br>
-<br>Crediamo nell’importanza di offrire uno <b>spazio accogliente</b> e non giudicante, in cui ogni persona possa sentirsi ascoltata, compresa e accompagnata nel proprio percorso.</p>
-
-  {% assign adult_slugs = "federica-coppola,valeria-villani,stefania-giannino,pier-matteo-fabbri,giulia-vinciguerra,alessandra-paradiso" | split: "," %}
-  <div class="professionals">
-    {% for person in site.people %}
-      {% assign pslug = person.name | slugify %}
-      {% if adult_slugs contains pslug %}
-        <div class="prof-card">
-          <div class="card">
-            <a href="{{ '/professionisti/' | append: pslug | append: '.html' | prepend: site.baseurl }}">
-              <div class="prof-avatar">
-                <img src="{{ '/img/team/' | append: person.pic | append: '.jpg' | prepend: site.baseurl }}" alt="{{ person.name }}">
-              </div>
-              <h4>{{ person.name }}</h4>
-            </a>
-            <p class="text-muted">{{ person.position }}</p>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
+<section id="come-possiamo-accompagnarti" class="content-band content-band--soft">
+  <div class="container">
+    <div class="section-intro">
+      <h2>Come possiamo accompagnarti</h2>
+      <p>Puoi rivolgerti al centro in un momento di difficoltà o cambiamento, oppure per prenderti cura del tuo equilibrio psicofisico.</p>
+    </div>
+    {% include service-grid.html services=site.data.services.adult compact=true %}
   </div>
+</section>
+
+{% if site.data.services.adult_projects.size > 0 %}
+<section class="content-band content-band--soft">
+  <div class="container">
+    <div class="section-intro">
+      <h2>Percorsi e progetti</h2>
+    </div>
+    {% include project-grid.html projects=site.data.services.adult_projects %}
+  </div>
+</section>
+{% endif %}
+
+<section class="container content-section">
+  <div class="section-intro">
+    <h2>L’équipe dell’area adulti</h2>
+    <p>Competenze diverse che lavorano in dialogo per costruire percorsi personalizzati e coordinati.</p>
+  </div>
+  {% include professional-grid.html slugs="federica-coppola,valeria-villani,stefania-giannino,pier-matteo-fabbri,giulia-vinciguerra,alessandra-paradiso,federica-beatrice" %}
+</section>
+
+<section class="container content-section content-section--cta">
+  {% include contact-cta.html %}
 </section>

@@ -1,0 +1,21 @@
+<div class="service-grid{% if include.compact %} service-grid--compact{% endif %}">
+  {% for service in include.services %}
+    <article class="service-card">
+      {% if service.image %}
+        <div class="service-card__image">
+          <img src="{{ service.image | prepend: site.baseurl }}" alt="{{ service.alt }}">
+        </div>
+      {% else %}
+        <div class="service-card__marker" aria-hidden="true"></div>
+      {% endif %}
+      <div class="service-card__body">
+        <h3>{{ service.title }}</h3>
+        {% if service.areas %}<p>{{ service.areas }}</p>{% endif %}
+        {% if service.description %}<p>{{ service.description }}</p>{% endif %}
+        {% if service.url %}
+          <a class="card-link" href="{{ service.url | prepend: site.baseurl }}">Scopri di più <span aria-hidden="true">→</span></a>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

@@ -6,6 +6,7 @@ location: "Spazio Indaco"
 category: "Incontri gratuiti"
 price: "Gratuito"
 instructor: "Dott. Pier Matteo Fabbri"
+description: "Un incontro per riconoscere i propri confini nelle relazioni, imparare a comunicarli e rispettare quelli delle altre persone."
 ---
 ##### Di cosa parleremo
 Parleremo di confini all’interno delle relazioni. 

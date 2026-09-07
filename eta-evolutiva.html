@@ -4,39 +4,40 @@ title: "Età evolutiva e famiglie"
 permalink: /eta-evolutiva.html
 ---
 
-<section class="container content-section">
+<section class="container content-section page-intro">
   <h1>Età evolutiva e famiglie</h1>
-  <p>Questa area è dedicata al <b>supporto dello sviluppo dei bambini e degli adolescenti</b>, e all’accompagnamento delle loro <b>famiglie</b> nei diversi momenti della crescita.
-    <br>All’interno di Spazio Indaco lavoriamo con un <b>approccio multidisciplinare</b>, integrando competenze diverse per offrire <b>interventi personalizzati</b> e costruiti sui <b>bisogni specifici</b> di ogni bambino e della sua famiglia.
-    <br><br>Ci occupiamo di:
-    <br>    • <b>sviluppo comunicativo e linguistico</b>
-    <br>    • <b>difficoltà comportamentali ed emotive</b>
-    <br>    • <b>autonomie e abilità quotidiane</b>
-    <br>    • <b>supporto nei disturbi del neurosviluppo</b>
-    <br>    • <b>sostegno alla genitorialità</b>
-    <br>    • <b>collaborazione con la scuola</b>
-    <br>
-    <br>Crediamo nell’importanza di creare un <b>ambiente accogliente</b>, in cui ogni famiglia possa sentirsi ascoltata, compresa e accompagnata.
-    <br>
-    <br>Qui sotto puoi conoscere i/le professionisti/e che lavorano nell’area dell’età evolutiva: <b>clicca su ogni profilo</b> per scoprire il loro approccio e gli interventi proposti. 
+  <p>Questa area è dedicata al <strong>supporto dello sviluppo di bambini e adolescenti</strong> e all’accompagnamento delle loro <strong>famiglie</strong> nei diversi momenti della crescita.</p>
+  <p>All’interno di Spazio Indaco lavoriamo con un <strong>approccio multidisciplinare</strong>, integrando competenze diverse per offrire interventi personalizzati e costruiti sui bisogni specifici di ogni persona e della sua famiglia. Crediamo nell’importanza di creare un ambiente accogliente, in cui ogni famiglia possa sentirsi ascoltata, compresa e accompagnata.</p>
+</section>
 
-  {% assign evo_slugs = "anna-maria-riccardo,stefania-baglieri,linda-borsari,beatrice-soli,maddalena-barani,annalisa-montecchi,valeria-santacatterina" | split: "," %}
-  <div class="professionals">
-    {% for person in site.people %}
-      {% assign pslug = person.name | slugify %}
-      {% if evo_slugs contains pslug %}
-        <div class="prof-card">
-          <div class="card">
-            <a href="{{ '/professionisti/' | append: pslug | append: '.html' | prepend: site.baseurl }}">
-              <div class="prof-avatar">
-                <img src="{{ '/img/team/' | append: person.pic | append: '.jpg' | prepend: site.baseurl }}" alt="{{ person.name }}">
-              </div>
-              <h4>{{ person.name }}</h4>
-            </a>
-            <p class="text-muted">{{ person.position }}</p>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
+<section id="come-possiamo-accompagnarvi" class="content-band content-band--soft">
+  <div class="container">
+    <div class="section-intro">
+      <h2>Come possiamo accompagnarvi</h2>
+      <p>Partiamo dai bisogni e costruiamo insieme interventi coordinati, rispettosi dei tempi e delle caratteristiche di ogni bambina, bambino o adolescente.</p>
+    </div>
+    {% include service-grid.html services=site.data.services.evolution compact=true %}
   </div>
+</section>
+
+<section class="container content-section">
+  <div class="section-intro">
+    <h2>Percorsi e progetti</h2>
+    <p>Incontri e proposte di gruppo dedicati alla crescita, alla famiglia e alla condivisione.</p>
+  </div>
+  {% include project-grid.html projects=site.data.services.evolution_projects %}
+</section>
+
+<section class="content-band content-band--soft">
+  <div class="container">
+    <div class="section-intro">
+      <h2>L’équipe dell’età evolutiva</h2>
+      <p>Competenze diverse che lavorano in dialogo per offrire uno sguardo integrato.</p>
+    </div>
+    {% include professional-grid.html slugs="anna-maria-riccardo,stefania-baglieri,linda-borsari,maddalena-barani,valeria-santacatterina,agata-garofolin,federica-beatrice" %}
+  </div>
+</section>
+
+<section class="container content-section content-section--cta">
+  {% include contact-cta.html %}
 </section>

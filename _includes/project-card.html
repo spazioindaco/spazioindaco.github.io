@@ -1,0 +1,15 @@
+<article class="project-card">
+  <div class="project-card__body">
+    <p class="card-eyebrow">Progetto{% if include.status %} {{ include.status }}{% elsif project.type %} · {{ project.type }}{% endif %}</p>
+    <h3>{{ project.title }}</h3>
+    {% if project.date or project.time or project.location %}
+      <dl class="event-meta-list">
+        {% if project.date %}<div><dt>Data</dt><dd>{{ project.date | date: "%d/%m/%Y" }}</dd></div>{% endif %}
+        {% if project.time %}<div><dt>Orario</dt><dd>{{ project.time }}</dd></div>{% endif %}
+        {% if project.location %}<div><dt>Luogo</dt><dd>{{ project.location }}</dd></div>{% endif %}
+      </dl>
+    {% endif %}
+    <p>{{ project.description }}</p>
+    {% if project.url %}<a class="card-link" href="{{ project.url | prepend: site.baseurl }}">Scopri di più <span aria-hidden="true">→</span></a>{% endif %}
+  </div>
+</article>

@@ -1,12 +1,12 @@
 ---
-title: Stanza 2
-subtitle: Psicologia
+title: Spazio psicologico
+subtitle: Psicologia · Colloqui · Percorsi individuali
 layout: default
 modal-id: 2
 date: 2014-07-17
 img: stanza2.png
 thumbnail: stanza2.png
-alt: image-alt
+alt: Spazio psicologico
 project-date: 
 client: 
 category: Stanze

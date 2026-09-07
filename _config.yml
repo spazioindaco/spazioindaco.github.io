@@ -13,6 +13,13 @@ people:
 - name: Anna Maria Riccardo
   pic: Anna
   position: <i>Tecnica della riabilitazione psichiatrica<br>Assistente Analista del Comportamento<i>
+  roles:
+    - Tecnica della Riabilitazione Psichiatrica
+    - Assistente Analista del Comportamento
+  areas:
+    - Autismo e neurodivergenze
+    - Autonomie e regolazione
+    - Supporto alla famiglia
   description: <br> Sono Anna Maria Riccardo, Tecnica della Riabilitazione Psichiatrica e Assistente Analista del Comportamento. 
     <br> Mi occupo di età evolutiva, accompagnando bambinǝ autistici e bambinǝ con difficoltà nella regolazione emotiva e nella comunicazione, attraverso percorsi educativi e abilitativi personalizzati.
     <br>Dopo la laurea con lode in Tecnica della Riabilitazione Psichiatrica presso l’Università di Modena e Reggio Emilia, ho approfondito la mia formazione nell’ambito dell’Analisi del Comportamento Applicata (ABA), conseguendo un Master di I livello che mi ha portata a lavorare come Assistente Analista del Comportamento.
@@ -29,6 +36,12 @@ people:
 - name: Valeria Villani
   pic: ValeriaV
   position: <i>Ostetrica <br></i> 
+  roles:
+    - Ostetrica
+  areas:
+    - Gravidanza e post partum
+    - Pavimento pelvico
+    - Allattamento
   description: "<br> <br> L'ostetrica è una figura sanitaria essenziale che accompagna le donne in tutte le fasi della loro vita: dall'adolescenza all'età fertile, attraverso la gravidanza il parto e il puerperio, fino alla menopausa. Dopo la mia laurea presso l'Università degli Studi di Roma Tor Vergata nel 2013, ho iniziato la mia carriera lavorativa in un consultorio familiare a Roma. Nel 2015 mi sono trasferita in Emilia Romagna, dove ho dato alla luce i miei due bambini. Successivamente, nel 2019, ho lavorato come ostetrica di reparto e sala parto presso l'Arcispedale Santa Maria Nuova di Reggio Emilia. Nel 2021, ho deciso di intraprendere la strada della libera professione con un obiettivo chiaro: specializzarmi nella <b>salute del pavimento pelvico femminile</b>. Questa scelta è nata dalla mia profonda volontà di aiutare le donne a trovare una figura specializzata che le supporti nei loro percorsi di riabilitazione e benessere pelvico. Ho quindi avviato uno studio dedicato alla rieducazione e riabilitazione pelviperineale, dove posso individuare e trattare le varie problematiche legate al pavimento pelvico, collaborando, quando necessario, con altri professionisti del settore. Oltre la riabilitazione pelvica, offre percorsi di <b>accompagnamento alla nascita</b> per donne e coppia in attesa, <b>assistenza domiciliare durante il puerperio</b>, <b>sostegno all'allattamento al seno</b>, incontri tematici periodici. La mia missione è fornire un'assistenza personalizzata e continua, rispondendo a ogni esigenza delle donne migliorando la loro qualità di vita attraverso una cura attenta e specializzata."
   social:
     - title: instagram
@@ -39,6 +52,12 @@ people:
 - name: Federica Coppola
   pic: Federica
   position: <i>Biologa Nutrizionista</i>
+  roles:
+    - Biologa Nutrizionista
+  areas:
+    - Educazione alimentare
+    - Percorsi nutrizionali
+    - Nutrizione nelle fasi della vita
   description: <br> Sono Federica, Biologa <b>Nutrizionista</b>, laureata in Biologia della Salute all'università di Bologna.
     <br>Per me, la <b>nutrizione</b> non è solo una questione di calorie, ma di <b>equilibrio</b>, <b>ascolto</b> e <b>benessere</b> a 360°.
     <br>Come Nutrizionista mi occupo di:<br><b>• Educazione alimentare</b>
@@ -58,6 +77,13 @@ people:
 - name: Maddalena Barani  
   pic: Maddalena
   position: <i>Logopedista <br> Età evolutiva</i>
+  roles:
+    - Logopedista
+    - Età evolutiva
+  areas:
+    - Linguaggio
+    - Apprendimento
+    - Autismo
   description: Mi sono laureata in <b>Logopedia</b> presso l'università di Modena e Reggio Emilia a novembre 2022, specializzandomi nella <b>valutazione</b> e nel <b>trattamento</b> del <b>linguaggio</b> e dell'<b>apprendimento</b>.
     <br>Ho arricchito la mia formazione con corsi specifici, ottenendo le qualifiche di:<br><b<Tecnico ABA</b>, con competenze su analisi del comportamento, insegnamento strutturato e gestione dei comportamenti problema nell'autismo.
     <br><b>Tutor DSA, BES e ADHD</b>, per supportare bambini e ragazzi con difficoltà scolastiche attraverso strategie personalizzate.
@@ -71,6 +97,13 @@ people:
 - name: Valeria Santacatterina
   pic: ValeriaS
   position: <i>Logopedista <br> Età evolutiva</i>
+  roles:
+    - Logopedista
+    - Età evolutiva
+  areas:
+    - Linguaggio e comunicazione
+    - Funzioni orali
+    - Neurodivergenze
   description: <br>Mi sono laureata in <b>Logopedia</b> nel 2023 presso l'Università di Modena e Reggio Emilia, con una tesi dedicata all'analisi delle abilità conversazionali nei <b>disturbi del neurosviluppo</b>.
     <br>Negli anni ho approfondito in particolare i <b>disturbi del linguaggio</b>, i <b>disordini motori dello speech</b>, i <b>disturbi dell'apprendimento</b>, l'<b>autismo</b>, l'<b>ADHD</b>, le <b>disabilità intellettive</b> e i <b>disturbi della comunicazione socio-pragmatica</b>.
     <br>Ho seguito percorsi specifici sulle <b>funzioni orali</b> e sugli <b>squilibri muscolari oro-facciali</b>, ambiti nei quali continuo a formarmi e che rappresentano parte integrante della mia pratica clinica.
@@ -82,28 +115,16 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/valeria-santacatterina-4130031b7/
 
-- name: Annalisa Montecchi
-  pic: Annalisa
-  position: <i>Logopedista <br> Età evolutiva</i>
-  description: <br>Mi sono laureata con lode in <b>Logopedia</b> nel 2023 presso l'Università di Modena e Reggio Emilia, e sono iscritta all'Albo dei Logopedisti di Modena e Reggio Emilia (n. 313).
-    <br>Dopo la laurea ho svolto un periodo di affiancamento presso lo studio Colibrì.Lab di Maranello, e attualmente lavoro in libera professione a Castelfranco Emilia presso <b>Spazio Indaco</b> e a Modena presso lo studio <b>PersonaLmente</b>.
-    <br>Da diversi anni opero anche come <b>educatrice</b> nel progetto <b>Ness1escluso</b>, dedicato ad attività sportive, ricreative e formative per bambini, ragazzi e adulti con disabilità cognitive e comportamentali, e nel contesto scolastico come supporto educativo per bambini con disabilità cognitive o <b>disturbo dello spettro autistico</b>.
-    <br>Ho sempre lavorato in contesti multidisciplinari, collaborando con <b>TeRP</b>, psicologi, neuropsicologi, psicomotricisti, educatori e terapisti occupazionali, per garantire una presa in carico globale e favorire il miglior benessere del paziente.
-    <br>In un'ottica di <b>formazione continua</b>, ho svolto corsi e workshop prevalentemente dedicati ai <b>disturbi della comunicazione e del linguaggio in età evolutiva</b>, tra cui:<b>Speech Sound Disorders</b> e workshop di introduzione alla tecnica <b>PROMPT</b>.
-    <br><br><b>Ambiti di intervento</b>:<br>• Valutazione e trattamento di bambini (0-3 anni) in ritardo nello sviluppo del linguaggio
-    <br>• Disturbi specifici di linguaggio e dello speech
-    <br>• Disturbi specifici dell'apprendimento (DSA)
-    <br>• Squilibrio muscolare oro-facciale e deglutizione (terapia mio-funzionale)
-    <br>• Competenze comunicative e linguistiche nei bambini con diagnosi di disturbo dello spettro autistico
-    <br>• Consulenza su sviluppo del linguaggio e DSA per famiglie, insegnanti ed educatori
-    <br><br>Per la mia pratica clinica mi baso sull'<b>EBM</b> (Evidence Based Medicine):ogni trattamento è guidato da valutazioni standardizzate e dalla letteratura scientifica più aggiornata.
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/annalisa-montecchi-6146411a5/
-
 - name: Giulia Vinciguerra
   pic: Giulia
   position: <i>Logopedista <br> Età adulto-geriatrica</i>
+  roles:
+    - Logopedista
+    - Età adulto-geriatrica
+  areas:
+    - Comunicazione nell’adulto
+    - Deglutizione
+    - Area neurologica
   description: <br> Mi sono laureata con Lode in <b>Logopedia</b> presso l'Università di Modena e Reggio Emilia a novembre 2022.
     <br>Fin da subito ho scelto di specializzarmi nella <b>valutazione</b> e <b>trattamento</b> delle <b>comunicopatie</b> e dei <b>disturbi di deglutizione in età adulto-geriatrica</b>.
     <br>Ho arricchito perciò il mio percorso con:<br>Tirocinio volontario di un anno presso USL di Reggio Emilia;<br><b>Master di I Livello “Logopedia in area Neurologica”</b>, presso l'Università di Torino, di cui conseguirò il titolo a inizio Giugno 2025.
@@ -127,6 +148,12 @@ people:
 - name: Stefania Giannino
   pic: StefaniaG
   position: "<i>Psicologa</i>"
+  roles:
+    - Psicologa
+  areas:
+    - Benessere psicologico
+    - Emozioni e relazioni
+    - Sostegno genitoriale
   description: |
     <br> <b>Le mie esperienze</b>: 
     <br> • Tirocinante educatrice nella comunità "Coccinella" del gruppo CEIS dove ho potuto interfacciarmi con problematiche di ragazze minori, partecipando alla loro quotidianità e agli incontri di équipe.  
@@ -150,6 +177,13 @@ people:
 - name: Pier Matteo Fabbri
   pic: Pier
   position: <i>Psicologo, specializzato in Educazione Sessuale</i>
+  roles:
+    - Psicologo
+    - Specializzato in Educazione Sessuale
+  areas:
+    - Benessere psicologico
+    - Affettività e sessualità
+    - Adolescenza
   description: Mi sono laureato con lode in Clinical Psychosexology presso l’Università Sapienza di Roma e mi sono specializzato in Educazione Sessuale presso il Centro Italiano di Sessuologia.Mi interesso di temi legati alla sessualità e al genere. Lavoro con persone adolescenti in una comunità terapeutico-riabilitativa. Nella libera professione mi occupo di psicoeducazione, educazione all’affettività e alla sessualità, e a percorsi di supporto psicologico.
   social:
     - title: linkedin
@@ -158,6 +192,14 @@ people:
 - name: Stefania Baglieri
   pic: StefaniaB
   position: <i>Educatrice Sociale<br>Esperta in Pedagogia Sociale<br>Mediatrice Feuerstein e Bright Start</i>
+  roles:
+    - Educatrice Sociale
+    - Esperta in Pedagogia Sociale
+    - Mediatrice Feuerstein e Bright Start
+  areas:
+    - Sviluppo e apprendimento
+    - Genitorialità
+    - Consulenza educativa
   description: Mi sono laureata in <b>Educatore Sociale</b> presso l'Università di Bologna (Facoltà di Scienze della Formazione) e ho approfondito negli anni la mia formazione diventando <b>Mediatrice Feuerstein</b> (pas basic e pas standard) presso il Centro per l'Apprendimento Mediato (CAM) di Rimini.
     <br><br>A gennaio 2025 ho concluso con lode il <b>Master di 1° livello</b> in <b>Pedagogia Familiare</b> presso l’INPEF (Istituto Nazionale di Pedagogia Familiare), dove attualmente frequento il <b>2° livello</b> e il <b>corso professionale</b> in <b>Assistente materno e genitoriale</b>.
     <br><br>Ho maturato oltre 10 anni di esperienza nell'ambito psichiatrico lavorando in strutture accreditate in collaborazione con i CSM di Bologna. Ho operato anche come <b>personale educativo scolastico</b> e <b>consulente educativo</b>.
@@ -173,6 +215,14 @@ people:
 - name: Linda Borsari
   pic: Linda
   position: <i>Educatrice Pedagogica<br>Psicomotricista<br>Insegnante di Massaggio Infantile AIMI</i>
+  roles:
+    - Educatrice Pedagogica
+    - Psicomotricista
+    - Insegnante di Massaggio Infantile AIMI
+  areas:
+    - Psicomotricità
+    - Massaggio infantile
+    - Prerequisiti della scrittura
   description: <br>Mi sono laureata in Scienze dell'Educazione nel 2018 presso l'Università di Ferrara e ho conseguito nel 2023 il diploma triennale di Psicomotricista con tesi su <i>“Memorie prenatali in sala di psicomotricità”</i>. Sono socia ANUPI Educazione e ho maturato 10 anni di esperienza in nidi, scuole dell'infanzia e primarie. Attualmente sto frequentando il Master Universitario di I° livello in <b>Prevenzione, Educazione e Rieducazione del Gesto Grafico</b>, con focus sui Disturbi Specifici dell'Apprendimento.
     <br>Nel 2024 ho ottenuto il 2° livello di Lingua dei Segni e sono diventata mamma di Edoardo.
     <br><br>Mi occupo di:<br>
@@ -188,9 +238,53 @@ people:
 - name: Alessandra Paradiso
   pic: Alessandra
   position: <i>Insegnante di YOGA</i><br>Viniyoga
+  roles:
+    - Insegnante di Yoga
+    - Viniyoga
+  areas:
+    - Yoga
+    - Respiro e movimento
+    - Consapevolezza corporea
   description: <br>Trasmetto lo <b>yoga</b> come disciplina olistica che unisce <b>corpo, mente e anima</b>, basandomi sulla mia esperienza personale e professionale.
     <br>La mia formazione deriva dalla scuola <b>VINIYOGA</b>, che si fonda sugli insegnamenti del maestro <b>Tirumalai Krishnamacharya</b>. In questo approccio, lo yoga si modella sul singolo individuo come un <i>“abito su misura”</i>, adattandosi alle sue caratteristiche fisiche, mentali ed emotive.
     <br>Credo che, con una pratica costante, la profonda connessione tra <b>respiro e movimento</b> possa offrire uno strumento per rallentare, ritrovare equilibrio e coltivare una relazione più autentica con sé stessi e con il mondo che ci circonda.
+
+- name: Agata Garofolin
+  pic: Agata
+  position: <i>Educatrice e Pedagogista</i>
+  roles:
+    - Educatrice
+    - Pedagogista
+  areas:
+    - Sostegno alla genitorialità
+    - Consulenza pedagogica
+    - Benessere familiare
+  description: |
+    <p>Educatrice e Pedagogista, ha conseguito la laurea triennale in Scienze dell’Educazione e la laurea magistrale in Pedagogia presso l’Università degli Studi di Padova. Ha inoltre approfondito la propria formazione attraverso un Master in gestione e risoluzione dei conflitti, sviluppando competenze nell’ascolto dei bisogni e nell’accompagnamento delle dinamiche relazionali e familiari.</p>
+    <p>Da diversi anni lavora con bambini e bambine da 0 a 12 anni e con le loro famiglie, occupandosi in particolare di benessere familiare, sostegno alla genitorialità e accompagnamento nei diversi momenti di crescita e trasformazione.</p>
+    <p>Il suo intervento parte da una visione sistemica della famiglia, considerando i bisogni del bambino insieme alle relazioni e al contesto in cui è inserito. L’obiettivo è accompagnare genitori e figure di riferimento nella comprensione delle difficoltà, nella lettura dei bisogni e nell’individuazione di strategie educative sostenibili per la quotidianità.</p>
+    <p>A Spazio Indaco propone consulenze e percorsi pedagogici rivolti ai genitori e alle famiglie, dal periodo perinatale fino all’età scolare, offrendo uno spazio di confronto su aspetti educativi, relazionali e sulle difficoltà che possono emergere nelle diverse fasi dello sviluppo.</p>
+    <p>Il lavoro può integrarsi, quando necessario, con quello degli altri professionisti del centro, nell’ottica di costruire un accompagnamento multidisciplinare e coordinato intorno al bambino e alla sua famiglia.</p>
+
+- name: Federica Beatrice
+  pic: FedericaB
+  photo_position: center top
+  position: <i>Educatrice Professionale e Coach Professionista</i>
+  roles:
+    - Educatrice Professionale
+    - Coach Professionista
+  areas:
+    - Tutoraggio DSA e BES
+    - Autonomie
+    - Coaching e inclusione lavorativa
+  description: |
+    <p>Educatrice Professionale, laureata in Scienze dell’Educazione (L-19), e Coach Professionista con formazione riconosciuta da ICF e AICP. La sua formazione integra competenze pedagogiche e comportamentali con metodologie orientate alla definizione di obiettivi e alla costruzione di strategie concrete per favorire autonomia, consapevolezza e partecipazione della persona nei diversi contesti di vita.</p>
+    <p>Si occupa di bambini, ragazzi, giovani adulti e adulti, attraverso percorsi individualizzati costruiti a partire dalle caratteristiche, dalle risorse e dagli obiettivi della persona.</p>
+    <p>In ambito scolastico propone percorsi di tutoraggio rivolti a studenti con DSA e altri Bisogni Educativi Speciali, dalla scuola primaria all’università, lavorando sul metodo di studio, sull’organizzazione, sulla motivazione e sull’utilizzo consapevole degli strumenti compensativi. L’obiettivo è favorire una progressiva autonomia nell’apprendimento e aiutare ogni studente a individuare strategie adatte al proprio modo di apprendere.</p>
+    <p>Si occupa inoltre dello sviluppo delle autonomie personali e sociali, attraverso interventi finalizzati a sostenere l’indipendenza nella vita quotidiana, la partecipazione sociale e l’acquisizione di competenze utili nei diversi contesti di vita.</p>
+    <p>Con ragazzi e adulti propone anche percorsi di coaching per l’inclusione e career coaching, orientati alla conoscenza delle proprie risorse, al bilancio delle competenze e all’accompagnamento nei momenti di ingresso, cambiamento o orientamento nel mondo del lavoro.</p>
+    <p>La sua attività comprende infine la progettazione di interventi educativi in collaborazione con famiglie, istituti scolastici e realtà del territorio, con l’obiettivo di costruire percorsi condivisi e favorire continuità tra i diversi contesti della persona.</p>
+    <p>A Spazio Indaco il suo lavoro può integrarsi con quello degli altri professionisti del centro, all’interno di percorsi multidisciplinari costruiti sulla persona e sui suoi obiettivi.</p>
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

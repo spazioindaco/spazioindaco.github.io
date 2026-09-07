@@ -1,12 +1,12 @@
 ---
-title: Stanza 1
-subtitle: Ostetricia | Nutrizione | Fisioterapia
+title: Spazio salute e consulenza
+subtitle: Ostetricia · Nutrizione · Fisioterapia · Osteopatia
 layout: default
 modal-id: 1
 date: 2014-07-18
 img: stanza1.png
 thumbnail: stanza1.png
-alt: image-alt
+alt: Spazio salute e consulenza
 project-date: 
 client: 
 category: Stanze

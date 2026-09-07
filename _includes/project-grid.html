@@ -1,0 +1,12 @@
+{% if include.projects.size > 0 %}
+  <div class="project-grid">
+    {% for project in include.projects %}
+      {% include project-card.html project=project status=include.status %}
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="empty-state">
+    <p>{{ include.empty_text | default: "I nuovi percorsi e progetti saranno pubblicati qui. Contattaci per conoscere le proposte attive." }}</p>
+    {% unless include.hide_contact %}<a class="card-link" href="{{ '/contatti.html' | prepend: site.baseurl }}">Chiedi informazioni <span aria-hidden="true">→</span></a>{% endunless %}
+  </div>
+{% endif %}

@@ -1,0 +1,27 @@
+{% assign requested_slugs = include.slugs | split: "," %}
+<div class="professionals">
+  {% for person in site.people %}
+    {% assign pslug = person.name | slugify %}
+    {% if requested_slugs contains pslug %}
+      <article class="prof-card">
+        <a class="prof-card__image" href="{{ '/professionisti/' | append: pslug | append: '.html' | prepend: site.baseurl }}" style="--photo-position: {{ person.photo_position | default: 'center center' }};">
+          <img src="{{ '/img/team/' | append: person.pic | append: '.jpg' | prepend: site.baseurl }}" alt="{{ person.name }}">
+        </a>
+        <div class="prof-card__body">
+          <h3>{{ person.name }}</h3>
+          {% if person.roles %}
+            <ul class="prof-roles" aria-label="Ruoli professionali">
+              {% for role in person.roles %}<li>{{ role }}</li>{% endfor %}
+            </ul>
+          {% else %}
+            <p class="prof-role">{{ person.position | strip_html }}</p>
+          {% endif %}
+          {% if person.areas %}
+            <p class="prof-areas">{{ person.areas | join: " · " }}</p>
+          {% endif %}
+          <a class="card-link" href="{{ '/professionisti/' | append: pslug | append: '.html' | prepend: site.baseurl }}">Scopri di più <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+</div>

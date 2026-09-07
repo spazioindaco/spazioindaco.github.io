@@ -1,0 +1,25 @@
+<article class="event-card">
+  <div class="event-card__accent" aria-hidden="true"><i class="far fa-calendar-alt"></i></div>
+  <div class="event-card__body">
+    <p class="card-eyebrow">Evento{% if include.status %} {{ include.status }}{% endif %}{% if event.category %} · {{ event.category }}{% endif %}</p>
+    <h3>{{ event.title }}</h3>
+    <dl class="event-meta-list">
+      <div>
+        <dt>Data</dt>
+        <dd>{% assign event_month = event.date | date: "%m" %}{{ event.date | date: "%-d" }} {% case event_month %}{% when "01" %}gennaio{% when "02" %}febbraio{% when "03" %}marzo{% when "04" %}aprile{% when "05" %}maggio{% when "06" %}giugno{% when "07" %}luglio{% when "08" %}agosto{% when "09" %}settembre{% when "10" %}ottobre{% when "11" %}novembre{% when "12" %}dicembre{% endcase %} {{ event.date | date: "%Y" }}</dd>
+      </div>
+      {% if event.time %}<div><dt>Orario</dt><dd>{{ event.time }}</dd></div>{% endif %}
+      {% if event.location %}<div><dt>Luogo</dt><dd>{{ event.location }}</dd></div>{% endif %}
+    </dl>
+    <p class="event-card__description">{% if event.description %}{{ event.description }}{% else %}{{ event.content | strip_html | strip_newlines | truncatewords: 28 }}{% endif %}</p>
+    <details class="event-disclosure">
+      <summary class="btn btn-primary">Scopri di più</summary>
+      <div class="event-disclosure__content">
+        {% if event.instructor %}<p><strong>Conduce:</strong> {{ event.instructor }}</p>{% endif %}
+        {% if event.price %}<p><strong>Partecipazione:</strong> {{ event.price }}</p>{% endif %}
+        {% if event.max_participants %}<p><strong>Partecipanti:</strong> massimo {{ event.max_participants }}</p>{% endif %}
+        <div class="event-rich-text">{{ event.content }}</div>
+      </div>
+    </details>
+  </div>
+</article>

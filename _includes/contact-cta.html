@@ -1,0 +1,7 @@
+<aside class="contact-cta{% if include.variant %} contact-cta--{{ include.variant }}{% endif %}">
+  <div>
+    <h2>{{ include.title | default: "Non sai da chi iniziare?" }}</h2>
+    <p>{{ include.text | default: "Raccontaci il tuo bisogno. Ti aiuteremo a individuare il servizio o il professionista più adatto." }}</p>
+  </div>
+  <a class="btn btn-whatsapp" href="{{ include.url | default: 'https://wa.me/393884235373?text=Buongiorno%2C%20vorrei%20ricevere%20informazioni%20sui%20servizi%20di%20Spazio%20Indaco' }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp" aria-hidden="true"></i> {{ include.button | default: "Scrivici su WhatsApp" }}</a>
+</aside>

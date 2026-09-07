@@ -1,0 +1,4 @@
+# Questi elenchi alimentano le sezioni Progetti attivi e Contenuti conclusi.
+# Ogni voce può contenere: type, title, date, time, location, description e url.
+active: []
+completed: []

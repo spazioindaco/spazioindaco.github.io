@@ -1,11 +1,11 @@
 ---
-title: Stanza 3
-subtitle: Interventi riabilitativi educativi
+title: Spazio educativo e riabilitativo
+subtitle: Interventi psicoeducativi · Tutoraggio DSA e BES · Attività educative
 layout: default
 modal-id: 3
 img: stanza3.png
 thumbnail: stanza3.png
-alt: image-alt
+alt: Spazio educativo e riabilitativo
 project-date: 
 client: 
 category: Stanze
